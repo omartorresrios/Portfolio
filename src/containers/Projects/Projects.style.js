@@ -37,9 +37,11 @@ export const ImageApp = styled.img`
   max-height: 600px;
 `;
 
-export const EmojiImgHome = styled.img`
-  position: relative; 
+export const BitmojiImgHome = styled.img`
+  position: relative;
+  margin-left: -100px;
   left: 50%;
-  display: none;
+  height: 200px;
+  width: 200px;
 `;
 

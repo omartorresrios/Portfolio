@@ -1,5 +1,6 @@
 import React, { Component/*, PropTypes*/ } from 'react';
 import { MeImage } from './Home.style';
+import { BitmojiImgHome } from '../Projects/Projects.style';
 
 export default class Home extends Component {
   // static PropTypes = {};
@@ -7,6 +8,7 @@ export default class Home extends Component {
   render() {
   	return (
       <MeImage>
+        <BitmojiImgHome src={require('assets/bitmoji.png')}/>
         <h1>Omar Torres</h1>
         <h3>Programmer</h3>
         <p>(iOS, Backend)</p>
