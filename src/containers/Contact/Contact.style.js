@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerInfo = styled.div`
+  /* Extra small devices (phones, less than 768px) */
   overflow-x: hidden;
   min-height: 100%;
   height: 100vh;
@@ -14,7 +15,7 @@ export const ContainerInfo = styled.div`
   font-size: 2em;
 
   h1 {
-    font-size: 1em;
+    font-size: 0.5em;
     margin-bottom: 30;
     margin-top: 20px;
     font-family: 'AvenirNext-Medium', sans-serif;
@@ -31,13 +32,29 @@ export const ContainerInfo = styled.div`
   p {
     font-family: 'AvenirNext-UltraLight', sans-serif;
     margin: 0;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   a {
     font-family: 'AvenirNext-UltraLight', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
   }
+
+  /* Small devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    a {
+      font-size: 25px;
+    }
+  }
+  
 `;
 
 export const ContactInfo = styled.div`

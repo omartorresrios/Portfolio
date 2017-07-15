@@ -18,6 +18,7 @@ export const MeImage = styled.div`
   font-size: 2em;
 
   h1 {
+    font-size: 50px;
   	margin-bottom: 0;
   	margin-top: 20px;
   	font-family: 'AvenirNext-Medium', sans-serif;
@@ -28,12 +29,12 @@ export const MeImage = styled.div`
   	margin-top: 0px;
   	margin-bottom: 0px;
   	font-weight: 100;
-  	font-size: 1.27em;
+  	font-size: 30px;
   }
 
   p {
   	margin: 0;
-    font-size: 25px;
+    font-size: 20px;
   }
 `;
 
