@@ -6,7 +6,7 @@ class Contact extends Component {
   	return (
         <ContainerInfo>
 
-          <h1>CONTACT</h1>
+          <h1>CONTACT ME</h1>
 
           <ContactInfo>
   	        <p>torresomar44@gmail.com</p>
