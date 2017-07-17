@@ -34,7 +34,7 @@ class Projects extends Component {
 	          Created to help you share the topics you dominate and increase your professional value.<br /><br />
 			  It allows you know the topics your friends talk about and learn from them.<br /><br />
 			  <b>Technical details:</b> <br />
-			  It was built in Ruby on Rails (Back) and ReactJS (Front). Use PostgreSQL as a database.<br /><br />
+			  It was built in Ruby on Rails (Back) and ReactJS (Front). Use PostgreSQL as database.<br /><br />
 			  Works with Elasticsearch, a search engine to find users, posts and topics.<br /><br />
 			  Uses Redis as storage in memory and Sidekiq for working queues (elasticsearch indexes, mailer and sidekiq).
 	        </Description>
