@@ -17,7 +17,7 @@ class Projects extends Component {
   	          With Answr you can ask and answer anonymously.<br /><br />
 			  You can follow people, have a custom feed, answer questions from all over the world, even from those you don't know.<br /><br />
 			  <b>Technical details:</b><br />
-			  It was built with Swift and Firebase as a backend.<br /><br />
+			  It was built with Swift and Firebase as backend.<br /><br />
 			  Use Storyboard.
   	        </Description>
   	        <ImageApp src={require('assets/Answr.png')}/>
@@ -36,7 +36,7 @@ class Projects extends Component {
 			  <b>Technical details:</b> <br />
 			  It was built in Ruby on Rails (Back) and ReactJS (Front). Use PostgreSQL as database.<br /><br />
 			  Works with Elasticsearch, a search engine to find users, posts and topics.<br /><br />
-			  Uses Redis as storage in memory and Sidekiq for working queues (elasticsearch indexes, mailer and sidekiq).
+			  Redis is used as storage in memory and Sidekiq for working queues (elasticsearch indexes, mailer and sidekiq).
 	        </Description>
 	        <ImageApp src={require('assets/Newdot.PNG')}/>
 	      </DescriptionImgBlock>
@@ -49,9 +49,9 @@ class Projects extends Component {
 
   	      <DescriptionImgBlock>
   	        <Description>
-              Humans look for something important: Make the world a fairer place.<br /><br />
-			  It's a tool that allows you to leave reviews (anonymous if you wish) to other people based on their actions (positive or negative).<br /><br />
-			  You can find someone and know how that person is, based on other people's reviews<br /><br />
+              Humans seeks to make the world fairer.<br /><br />
+			  A tool that allows you to leave reviews (anonymous if you wish) to other people based on their actions (positive or negative).<br /><br />
+			  You can find someone and know how that person is, based on other people's reviews.<br /><br />
 			  There is a section where you can see who are the people with the best reputation.<br /><br />
 			  <b>Technical details:</b><br />
 			  Developed entirely in Swift, and Ruby on Rails and Firebase as a backend.<br /><br />
