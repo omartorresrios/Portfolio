@@ -36,7 +36,7 @@ class Projects extends Component {
 			  <b>Technical details:</b> <br />
 			  It was built in Ruby on Rails (Back) and ReactJS (Front). Use PostgreSQL as database.<br /><br />
 			  Works with Elasticsearch, a search engine to find users, posts and topics.<br /><br />
-			  Redis is used as storage in memory and Sidekiq for working queues (elasticsearch indexes, mailer and sidekiq).
+			  Sidekiq is used for working queues (elasticsearch indexes, mailer and sidekiq) and Redis to store all of its job and operational data.
 	        </Description>
 	        <ImageApp src={require('assets/Newdot.PNG')}/>
 	      </DescriptionImgBlock>
