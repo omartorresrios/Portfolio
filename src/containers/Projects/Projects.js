@@ -45,7 +45,7 @@ class Projects extends Component {
 
   	    <ProjectsContainer>
   	      
-  	      <a href="http://www.newdot.us/" target="_blank">Humans</a>
+  	      <a>Humans</a>
 
   	      <DescriptionImgBlock>
   	        <Description>
