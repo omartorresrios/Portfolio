@@ -54,7 +54,7 @@ class Projects extends Component {
 			  You can find someone and know how that person is, based on other people's reviews.<br /><br />
 			  There is a section where you can see who are the people with the best reputation.<br /><br />
 			  <b>Technical details:</b><br />
-			  Developed entirely in Swift, and Ruby on Rails and Firebase as a backend.<br /><br />
+			  Developed entirely in Swift and Ruby on Rails/Firebase as backend.<br /><br />
 			  There are two versions: the one that is in production (App Store) is with Firebase, the other with own backend (Rails), implementing JWT for a secure authentication.<br /><br />
 			  It was built programmatically, without using Storyboard.
             </Description>
