@@ -6,7 +6,7 @@ class Projects extends Component {
   render() {
   	return (
   	  <Container>
-  	    <h1>PROJECTS</h1>
+  	    <h1>TECH PROJECTS</h1>
 
   	    <ProjectsContainer>
   	      
@@ -62,6 +62,24 @@ class Projects extends Component {
           </DescriptionImgBlock>
           
   	    </ProjectsContainer>
+
+        <ProjectsContainer>
+          
+          <a href="https://itunes.apple.com/us/app/dots/id1346985154?mt=8" target="_blank">Dots</a>
+
+          <DescriptionImgBlock>
+            <Description>
+              Dots was an experiment based on the interest of starting to imagine and try to create a better way to visualize the professional value that people bring.<br /><br />
+        You can leave reviews through audio.
+The keyboard is not used throughout the application. It was a design decision since I believe that the future of communication between people and computers  will be through voice and/or thoughts. The keyboard is already outdated.<br /><br />
+        <b>Technical details:</b><br />
+        Developed entirely in Swift and Ruby on Rails as backend.<br /><br />
+        Use the best speech recognition technology (google speech recognition - machine learning).
+            </Description>
+            <ImageApp src={require('assets/Dots.png')}/>
+          </DescriptionImgBlock>
+          
+        </ProjectsContainer>
  		
   	  </Container>
   	);

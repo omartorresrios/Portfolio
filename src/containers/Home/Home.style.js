@@ -49,7 +49,7 @@ export const MeImage = styled.div`
     }
 
     h3 {
-      font-size: 30px;
+      font-size: 25px;
     }
 
     p {

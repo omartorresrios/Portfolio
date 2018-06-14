@@ -10,8 +10,7 @@ export default class Home extends Component {
       <MeImage>
         <BitmojiImgHome src={require('assets/bitmoji.png')}/>
         <h1>Omar Torres</h1>
-        <h3>Developer</h3>
-        <p>(iOS, Full Stack)</p>
+        <h3>Business and software engineer</h3>
       </MeImage>
   	);
   }
