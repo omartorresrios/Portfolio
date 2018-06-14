@@ -9,7 +9,7 @@ class App extends Component {
       	<NavigationContainer>
 	      <NavigationItems to="/">Home</NavigationItems>
           <NavigationItems to="/projects">Tech Projects</NavigationItems>
-          <NavigationItems href="http://www.newdot.us/users/omar-torres" target="_blank">Videos</NavigationItems>
+          <NavigationItems>Videos</NavigationItems>
           <NavigationItems to="/contact">Contact me</NavigationItems>
 	    </NavigationContainer>
         {this.props.children}
