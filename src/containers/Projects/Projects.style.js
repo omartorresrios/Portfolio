@@ -88,3 +88,36 @@ export const BitmojiImgHome = styled.img`
   width: 200px;
 `;
 
+export const MeImgHome = styled.div`
+  /* Extra small devices (phones, less than 768px) */
+  height: 100vh;
+    
+  background-image: url('${require('../../assets/me.jpg')}');
+  background-color: rgba(248, 247, 216, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+  h1 {
+    margin-bottom: 0;
+  }  
+
+  /* Small devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    
+  }
+  
+`;
+
+
+
+
+
+
+

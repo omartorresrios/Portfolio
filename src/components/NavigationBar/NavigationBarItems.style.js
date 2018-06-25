@@ -10,6 +10,7 @@ export const NavigationItems = styled(Link)`
   text-decoration: none;
   margin-left: 20px;
   position: relative;
+  z-index: 10;
 
   /* Small devices (tablets, 768px and up) */
   @media screen and (min-width: 768px) {
