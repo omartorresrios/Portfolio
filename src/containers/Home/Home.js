@@ -1,10 +1,6 @@
 import React, { Component/*, PropTypes*/ } from 'react';
-import { HomeMainDiv } from './Home.style';
-import { MeImage } from './Home.style';
-import { AboutMe, OverlayColor } from './Home.style';
-import { IframeVideo } from './Home.style';
+import { HomeMainDiv, MeImage, AboutMe, OverlayColor, IframeVideo } from './Home.style';
 import { BitmojiImgHome } from '../Projects/Projects.style';
-import { MeImgHome } from '../Projects/Projects.style';
 
 export default class Home extends Component {
   // static PropTypes = {};
