@@ -115,7 +115,7 @@ export const OverlayColor = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+    
   position: relative;
 
   top: 0;
