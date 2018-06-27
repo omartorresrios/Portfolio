@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-Hi there! 👋, this is my Portfolio, it was built with ReactJS.
+Portfolio
 =======
-Hi there! 👋, this is my Portfolio, it was built with ReactJS.
->>>>>>> 86b9c7f05ebaf0f3e0f37c8ebd4b3e59ac52a348
+Hi 👋! , this is my Portfolio, it was built with ReactJS. You can see it here: www.omartorres.me
