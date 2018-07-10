@@ -45,7 +45,7 @@ class Projects extends Component {
 
   	    <ProjectsContainer>
   	      
-  	      <a>Humans</a>
+  	      <a>Gouto</a>
 
   	      <DescriptionImgBlock>
   	        <Description>
