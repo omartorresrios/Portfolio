@@ -49,7 +49,7 @@ class Projects extends Component {
 
   	      <DescriptionImgBlock>
   	        <Description>
-              Humans seeks to make the world fairer.<br /><br />
+              Gouto seeks to make the world fairer.<br /><br />
 			  A tool that allows you to leave reviews (anonymous if you wish) to other people based on their actions (positive or negative).<br /><br />
 			  You can find someone and know how that person is, based on other people's reviews.<br /><br />
 			  There is a section where you can see who are the people with the best reputation.<br /><br />
