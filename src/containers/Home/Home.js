@@ -12,7 +12,7 @@ export default class Home extends Component {
         <MeImage>
           <OverlayColor>
             <h1>Omar Torres</h1>
-            <h3>Software and Business Engineer</h3>
+            <h3>Business and Software Engineer</h3>
           </OverlayColor>
           
         </MeImage>
