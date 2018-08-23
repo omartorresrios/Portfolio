@@ -21,11 +21,7 @@ export default class Home extends Component {
           <p>Passionate about a future guided by technology on its positive side. 
             Very interested in creating digital products that respect the values and time of people. Check it out! 👇
           </p>
-          <IframeVideo>
-            <iframe width="100%" height="250" frameBorder="0" align="center"
-              src="https://www.youtube.com/embed/HQS6qqE2QiE?rel=0">
-            </iframe>
-          </IframeVideo>
+          
           
         </AboutMe>
 
