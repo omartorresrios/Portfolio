@@ -19,7 +19,7 @@ export default class Home extends Component {
 
         <AboutMe>
           <p>Passionate about a future guided by technology on its positive side. 
-            Very interested in creating digital products that respect the values and time of people. 👇
+            Very interested in creating digital products that respect the values and time of people.
           </p>
           
           
