@@ -5,7 +5,7 @@ export const NavigationItems = styled(Link)`
   /* Extra small devices (phones, less than 768px) */
   font-family: 'AvenirNext-UltraLight', sans-serif;
   cursor: pointer;
-  color: #222222;
+  color: white;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
@@ -16,7 +16,6 @@ export const NavigationItems = styled(Link)`
   /* Small devices (tablets, 768px and up) */
   @media screen and (min-width: 768px) {
 	  font-size: 18px;
-    color: white;
     font-weight: normal;
   }
   

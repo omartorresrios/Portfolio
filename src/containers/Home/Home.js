@@ -1,6 +1,7 @@
 import React, { Component/*, PropTypes*/ } from 'react';
-import { HomeMainDiv, MeImage, AboutMe, OverlayColor, IframeVideo } from './Home.style';
+import { HomeMainDiv, LeftContainer, PhotoDescriptionContainer, MeImageContainer, MeImage, RightContainer, OverlayColor } from './Home.style';
 import { BitmojiImgHome } from '../Projects/Projects.style';
+import InstagramEmbed from 'react-instagram-embed'
 
 export default class Home extends Component {
   // static PropTypes = {};
@@ -9,21 +10,30 @@ export default class Home extends Component {
   	return (
       <HomeMainDiv>
 
-        <MeImage>
-          <OverlayColor>
-            <h1>Omar Torres</h1>
-            <h3>Business and Software Engineer</h3>
-          </OverlayColor>
-          
-        </MeImage>
+        <LeftContainer>
 
-        <AboutMe>
-          <p>Passionate about a future guided by technology on its positive side. 
-            Very interested in creating digital products that respect the values and time of people.
-          </p>
+          <PhotoDescriptionContainer>
+            <MeImageContainer>
+              <MeImage>
+              
+              </MeImage>
+            </MeImageContainer>
+
+            <OverlayColor>
+              <h1>Omar Torres</h1>
+              <h3>Business and Software Engineer</h3>
+            </OverlayColor>
+
+          </PhotoDescriptionContainer>
           
+        </LeftContainer>
+        
+
+        <RightContainer>
+
+          <InstagramEmbed url="https://www.instagram.com/p/Bm4JokIhyEs/?taken-by=omartorresrios" style={{ width: "350px" }} />
           
-        </AboutMe>
+        </RightContainer>
 
 
       </HomeMainDiv>
