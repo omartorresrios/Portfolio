@@ -1,6 +1,5 @@
 import React, { Component/*, PropTypes*/ } from 'react';
 import { HomeMainDiv, LeftContainer, PhotoDescriptionContainer, MeImageContainer, MeImage, RightContainer, OverlayColor } from './Home.style';
-import { BitmojiImgHome } from '../Projects/Projects.style';
 import InstagramEmbed from 'react-instagram-embed'
 
 export default class Home extends Component {
