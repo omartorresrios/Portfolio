@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-  /* Extra small devices (phones, less than 768px) */ 
+  /* Extra small devices (phones, less than 768px) */
   display: flex;
   color: white;
   flex-direction: column;
@@ -14,7 +14,7 @@ export const ProjectsContainer = styled.div`
     color: white;
     font-size: 30px;
     align-self: center;
-
+    font-weight: bold;
     &:hover {
       color: #1DA1F2;
       cursor: pointer;
@@ -29,18 +29,18 @@ export const ProjectsContainer = styled.div`
       color: white;
       font-size: 50px;
       align-self: center;
-
-      &:hover {
+      font-weight: bold;
+      /* &:hover {
         color: #1DA1F2;
         cursor: pointer;
-      }
+      } */
     }
   }
-  
+
 `;
 
 export const DescriptionImgBlock = styled.div`
-  /* Extra small devices (phones, less than 768px) */ 
+  /* Extra small devices (phones, less than 768px) */
   display: flex;
   align-items: center;
   max-width: 800px;
@@ -87,5 +87,3 @@ export const BitmojiImgHome = styled.img`
   height: 200px;
   width: 200px;
 `;
-
-

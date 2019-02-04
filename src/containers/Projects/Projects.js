@@ -8,26 +8,62 @@ class Projects extends Component {
   	  <Container>
   	    <h1>TECH PROJECTS</h1>
 
-  	    <ProjectsContainer>
-  	      
-  	      <a href="https://itunes.apple.com/us/app/answr/id1196338273?ls=1&mt=8" target="_blank">Answr</a>
+        <ProjectsContainer>
 
-  	      <DescriptionImgBlock>
-  	      	<Description>
-  	          With Answr you can ask and answer anonymously.<br /><br />
-			  You can follow people, have a custom feed, answer questions from all over the world, even from those you don't know.<br /><br />
-			  <b>Technical details:</b><br />
-			  It was built with Swift and Firebase as backend.<br /><br />
-			  Use Storyboard.
-  	        </Description>
-  	        <ImageApp src={require('assets/Answr.png')}/>
-  	      </DescriptionImgBlock>
+          <a href="https://github.com/omartorresrios/NearbyPlaces/tree/master" target="_blank">NearbyPlaces</a>
+
+          <DescriptionImgBlock>
+            <Description>
+              NearbyPlaces consumes the "Foursquare API" API to show the places closest to your location so you can enjoy anything. Restaurants, shops, etc. Contains a feed and a map.<br /><br />
+        <b>Technical details:</b><br />
+        Developed entirely in Swift and Programmatically.<br /><br />
+        MapKit, Decodable, Core Location, MVC.<br /><br />
+        SwiftyJSON, Alamofire.
+            </Description>
+            <ImageApp src={require('assets/nearbyplaces.jpg')}/>
+          </DescriptionImgBlock>
+
+  	    </ProjectsContainer>
+
+        <ProjectsContainer>
+
+          <a href="https://github.com/omartorresrios/MovieLists" target="_blank">MovieLists</a>
+
+          <DescriptionImgBlock>
+            <Description>
+              MovieLists consumes the "TheMovieDatabaseAPI" API to show the most popular, best ranked movies and those that are not yet released.
+  Works with a search engine to find movies by name.<br /><br />
+        <b>Technical details:</b><br />
+        Developed entirely in Swift. Programmatically and with Core Data for local storage.<br /><br />
+        Supports online and offline search.<br /><br />
+        MVC design pattern, KeyChain.
+            </Description>
+            <ImageApp src={require('assets/movielists.jpg')}/>
+          </DescriptionImgBlock>
 
   	    </ProjectsContainer>
 
   	    <ProjectsContainer>
 
-  	      <a href="http://www.newdot.us/" target="_blank">Newdot</a>
+          <a href="https://github.com/omartorresrios/Dots" target="_blank">Dots</a>
+
+          <DescriptionImgBlock>
+            <Description>
+              Dots was an experiment based on the interest of starting to imagine and try to create a better way to visualize the professional value that people bring.<br /><br />
+        You can leave reviews through audio.
+  The keyboard is not used throughout the application. It was a design decision since I believe that the future of communication between people and computers  will be through voice and/or thoughts. The keyboard is already outdated.<br /><br />
+        <b>Technical details:</b><br />
+        Developed entirely in Swift and Ruby on Rails as backend.<br /><br />
+        Use the best speech recognition technology (google speech recognition - machine learning).
+            </Description>
+            <ImageApp src={require('assets/Dots.png')}/>
+          </DescriptionImgBlock>
+
+  	    </ProjectsContainer>
+
+  	    <ProjectsContainer>
+
+  	      <a href="https://github.com/NewdotNerds/Newdot" target="_blank">Newdot</a>
 
   	      <DescriptionImgBlock>
 	  	    <Description>
@@ -40,12 +76,12 @@ class Projects extends Component {
 	        </Description>
 	        <ImageApp src={require('assets/Newdot.PNG')}/>
 	      </DescriptionImgBlock>
-	      
+
   	    </ProjectsContainer>
 
   	    <ProjectsContainer>
-  	      
-  	      <a>Gouto</a>
+
+  	      <a href="https://github.com/omartorresrios/Gouto" target="_blank">Gouto</a>
 
   	      <DescriptionImgBlock>
   	        <Description>
@@ -60,27 +96,26 @@ class Projects extends Component {
             </Description>
             <ImageApp src={require('assets/Humans.png')}/>
           </DescriptionImgBlock>
-          
+
   	    </ProjectsContainer>
 
         <ProjectsContainer>
-          
-          <a href="https://itunes.apple.com/us/app/dots/id1346985154?mt=8" target="_blank">Dots</a>
 
-          <DescriptionImgBlock>
-            <Description>
-              Dots was an experiment based on the interest of starting to imagine and try to create a better way to visualize the professional value that people bring.<br /><br />
-        You can leave reviews through audio.
-The keyboard is not used throughout the application. It was a design decision since I believe that the future of communication between people and computers  will be through voice and/or thoughts. The keyboard is already outdated.<br /><br />
-        <b>Technical details:</b><br />
-        Developed entirely in Swift and Ruby on Rails as backend.<br /><br />
-        Use the best speech recognition technology (google speech recognition - machine learning).
-            </Description>
-            <ImageApp src={require('assets/Dots.png')}/>
-          </DescriptionImgBlock>
-          
+          <a href="https://github.com/omartorresrios/Answr" target="_blank">Answr</a>
+
+  	      <DescriptionImgBlock>
+  	      	<Description>
+  	          With Answr you can ask and answer anonymously.<br /><br />
+			  You can follow people, have a custom feed, answer questions from all over the world, even from those you don't know.<br /><br />
+			  <b>Technical details:</b><br />
+			  It was built with Swift and Firebase as backend.<br /><br />
+			  Use Storyboard.
+  	        </Description>
+  	        <ImageApp src={require('assets/Answr.png')}/>
+  	      </DescriptionImgBlock>
+
         </ProjectsContainer>
- 		
+
   	  </Container>
   	);
   }
